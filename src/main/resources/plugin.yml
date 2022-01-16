@@ -1,0 +1,6 @@
+name: SCO-Core
+version: 0.1
+main: SCOCore
+api-version: 1.16
+prefix: SCO-Core
+authors: [ Freddyblitz ]
