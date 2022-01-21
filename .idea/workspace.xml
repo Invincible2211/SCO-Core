@@ -4,10 +4,84 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d8540e5-c866-426b-a8f3-cec273d3adc4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/SCOCore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+    <list default="true" id="8d8540e5-c866-426b-a8f3-cec273d3adc4" name="Changes" comment="add: new classes">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/core/balance/Cardinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/core/balance/PlayerObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/core/economy/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/core/encounter/Encounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/core/encounter/bossmob/BossMob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/core/encounter/fullraid/FullRaid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/core/encounter/raid/Raid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/core/encounter/strike/Strike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/core/playerdeath/PlayerDeathManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/core/skills/SkillManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/core/zone/PvEZone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/core/zone/PvPZone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/core/zone/RaidZone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/core/zone/SafeZone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/database/DatabaseConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/database/DatabaseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/entity/enemy/BossMob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/entity/friendly/Merchant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/entity/neutral/animals/RagoutRabbit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/entity/neutral/companion/Dragon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/entity/neutral/companion/Tamable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/events/events/PlayerLevelUpEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/events/listener/PlayerDeathListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/events/listener/PlayerJoinListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/events/listener/PlayerQuitListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/file/FileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/items/ItemFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/items/RarityLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/control/player/SCOPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/economy/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/skills/Skill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/skills/Skillpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/skills/Skilltree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/skills/skills/combat/Hide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/skills/skills/combat/Perception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/skills/skills/combat/Regeneration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/skills/skills/combat/resistence/Fire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/skills/skills/combat/resistence/Ice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/skills/skills/combat/resistence/Poisen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/skills/skills/crafting/Cooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/skills/skills/explore/TreasureFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/skills/skills/uniqueskills/weapons/swords/DualWield.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/skills/skills/uniqueskills/weapons/swords/HolySword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/skills/skills/weapons/Dagger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/skills/skills/weapons/Mace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/skills/skills/weapons/Rapier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/skills/skills/weapons/Shield.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/skills/skills/weapons/Spear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/skills/skills/weapons/Sword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/zone/Buyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/zone/PvEZone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/zone/PvPZone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/zone/RaidZone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/zone/SafeZone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/zone/Zone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/interfaces/FilePaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/items/Rarity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/items/items/crystals/AntiPoisenCrystal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/items/items/crystals/HealCrystal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/items/items/crystals/TeleprortCrystal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/items/items/special/RevieveStone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/items/items/weapons/Dagger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/items/items/weapons/Mace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/items/items/weapons/Rapier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/items/items/weapons/Shield.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/items/items/weapons/Spear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/items/items/weapons/Sword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/view/animations/Animation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/view/animations/EntityDeathAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/view/animations/PlayerDeathAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/view/player/inventorys/CustomInventoryAPIHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/view/player/ui/ActionBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/balance.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +91,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -45,12 +121,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/de/fynn/sco/core/model/core/zone" />
     <property name="settings.editor.selected.configurable" value="advanced.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\FynnS\IdeaProjects\SCO\SCO-Core\src\main\java\de\fynn\sco\core\model\core\zone" />
       <recent name="C:\Users\FynnS\IdeaProjects\SCO\SCO-Core\src\main\resources" />
       <recent name="C:\Users\FynnS\IdeaProjects\SCO\SCO-Core" />
     </key>
@@ -68,6 +146,10 @@
       <workItem from="1642362340915" duration="40000" />
       <workItem from="1642363297711" duration="137000" />
       <workItem from="1642363484866" duration="187000" />
+      <workItem from="1642363997523" duration="611000" />
+      <workItem from="1642429635189" duration="7000" />
+      <workItem from="1642683396230" duration="5584000" />
+      <workItem from="1642767046299" duration="3820000" />
     </task>
     <servers />
   </component>
@@ -84,5 +166,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add: new classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: new classes" />
   </component>
 </project>
